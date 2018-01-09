@@ -1,0 +1,35 @@
+{
+  "name": "digital-marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "start": "./node_modules/.bin/webpack --config webpack.config.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusquintaes/DigitalMarketing.git"
+  },
+  "author": "Matheus Quintaes <matheus.quintaes@gmail.com> (http://matheusquintaes.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusquintaes/DigitalMarketing/issues"
+  },
+  "homepage": "https://github.com/matheusquintaes/DigitalMarketing#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "loader": "^2.1.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
