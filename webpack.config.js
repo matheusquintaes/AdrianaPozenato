@@ -36,7 +36,12 @@ module.exports = {
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
-                    'file-loader'
+                    'file-loader', {
+                        loader: 'image-webpack-loader',
+                            options: {
+                            bypassOnDebug: true,
+                          },
+                    }
                 ]
             }
         ]
