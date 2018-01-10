@@ -26,12 +26,12 @@ import './css/responsive.css';
             itemActiveClass: "is-active"
         }
     
-        doc.addEventListener("DOMContentLoaded", function() {
+        // doc.addEventListener("DOMContentLoaded", function() {
             var $btnToogle = doc.querySelector('[data-js="toggle-navigation"]');
             closeOnSmallScreens();
             doc.body.classList.add("navigation-initialised");
             $btnToogle.addEventListener("click", handleToggle);
-        });
+        // });
     
         function handleToggle(){
             document.body.classList.toggle(nav.closeClass);
